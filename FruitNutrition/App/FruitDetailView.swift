@@ -13,7 +13,7 @@ struct FruitDetailView: View {
     
     //MARK: - BODY
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ScrollView(.vertical) {
                 VStack(alignment: .center, spacing: 20) {
                     // HEADER

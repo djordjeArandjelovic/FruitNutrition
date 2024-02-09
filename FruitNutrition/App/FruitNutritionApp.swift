@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct FruitNutritionApp: App {
-    init() {
-            UserDefaults.standard.set(true, forKey: "isOnboarding")
-        }
+//    init() {
+//            UserDefaults.standard.set(true, forKey: "isOnboarding")
+//        }
     
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
     
